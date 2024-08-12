@@ -90,6 +90,8 @@ Azure Advisor provides guidance and recommendations to improve security, perform
   - Azure App Services
   - Azure SQL Database
   - Azure Functions
+  - Azure Firewall
+  - Azure Kubernetes Service (AKS)
 
 ### Software as a Service (SaaS)
 - **Definition**: Provides software applications over the internet on a subscription basis.
@@ -116,17 +118,77 @@ Contains trust documents covering security implementation and design documentati
 - Data protection white papers, FAQs, penetration tests, and risk assessment tools
 - Azure stack security and compliance solutions and support
 
-### Windows Hello for Business
-Features for secure authentication.
+## Windows Hello for Business
+
+**Windows Hello for Business** is a security feature in Windows 10 and Windows 11 that replaces traditional passwords with strong two-factor authentication on devices. It leverages biometrics (such as facial recognition or fingerprint scanning) or a PIN to authenticate users, providing a more secure and user-friendly authentication method.
+
+### Key Features
+
+1. **Passwordless Authentication**
+   - **Biometrics**: Uses facial recognition or fingerprint scanning to authenticate users.
+   - **PIN**: Allows users to authenticate using a PIN that is tied to the specific device.
+
+2. **Multi-Factor Authentication**
+   - Combines something you know (PIN), something you have (device), and something you are (biometrics) to provide a robust authentication mechanism.
+
+3. **Device-Based Authentication**
+   - The authentication credentials are tied to the device, making it more secure as the credentials cannot be used on another device.
+
+4. **Support for Multiple Account Types**
+   - **Microsoft Account**: Personal accounts used for services like Outlook, OneDrive, and Xbox Live.
+   - **Active Directory Account**: Corporate accounts used within an organization's network.
+   - **Azure AD Account**: Accounts used for accessing Azure services and Office 365.
+   - **Identity Provider Accounts**: Supports accounts from identity providers that comply with Fast ID Online (FIDO) v2.0 authentication standards.
+
+5. **Enhanced Security**
+   - **Asymmetric Key Pair**: Uses public and private key pairs for authentication, where the private key is stored securely on the device.
+   - **Anti-Spoofing**: Includes anti-spoofing measures to ensure that biometric data cannot be easily faked.
+
+6. **User Convenience**
+   - **Fast Login**: Provides a quick and seamless login experience.
+   - **Single Sign-On (SSO)**: Allows users to access multiple applications and services without needing to re-enter credentials.
+
+### Benefits
+
+1. **Improved Security**
+   - Reduces the risk of phishing attacks and password theft.
+   - Ensures that authentication credentials are stored securely on the device.
+
+2. **User-Friendly**
+   - Simplifies the login process with biometrics or a PIN.
+   - Eliminates the need to remember complex passwords.
+
+3. **Compliance**
+   - Helps organizations meet regulatory requirements for strong authentication.
+
+4. **Flexibility**
+   - Supports a wide range of account types and authentication methods.
+
+By leveraging Windows Hello for Business, organizations can enhance their security posture while providing a more convenient and efficient authentication experience for their users.
 
 ### Azure DNS
 A portfolio of products that extends on-premises environments to the cloud and can include many Azure services and capabilities, such as data centers, edge locations, and remote offices.
 
 ### Azure Firewall
-A PaaS security offering in Azure.
+Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. It is a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability. Azure Firewall provides comprehensive security features to control and monitor your network traffic.
+
+#### Key Features
+Stateful Firewall
+
+Traffic Filtering: Allows you to create, enforce, and log application and network connectivity policies across subscriptions and virtual networks.
+Network Rules: Supports both inbound and outbound filtering rules based on IP addresses, ports, and protocols.
+Threat Intelligence
+
+Threat Intelligence-Based Filtering: Integrates with Microsoft Threat Intelligence to alert and deny traffic from/to known malicious IP addresses and domains.
 
 ### Azure Kubernetes Services (AKS)
-A PaaS security offering in Azure.
+A PaaS offering in Azure - Azure Kubernetes Service (AKS) is a managed container orchestration service provided by Microsoft Azure that simplifies the deployment, management, and operations of Kubernetes clusters. AKS is designed to handle the complexities of Kubernetes, allowing developers and IT administrators to focus on building and running applications rather than managing the underlying infrastructure.
+
+#### Key Features
+Managed Kubernetes
+
+Simplified Cluster Management: AKS handles the provisioning, upgrading, and scaling of Kubernetes clusters, reducing the operational overhead.
+Automatic Updates: Ensures that the Kubernetes control plane is always up-to-date with the latest security patches and features.
 
 ### VPN Gateway vs ExpressRoute or VNet Peering
 Differences in connectivity options.
