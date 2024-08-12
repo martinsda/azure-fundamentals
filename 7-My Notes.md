@@ -1,4 +1,4 @@
-# Azure AZ-900: Microsoft Azure Fundamentals
+# AZ-900: Microsoft Azure Fundamentals
 
 These items are relevant to the AZ-900: Microsoft Azure Fundamentals certification, as they cover fundamental concepts and features of Microsoft Azure. Understanding these topics is important for anyone seeking to gain a foundational understanding of Azure and its capabilities.
 
@@ -18,8 +18,6 @@ Security groups in Azure are used to manage network security by controlling inbo
 
 ### Azure Policy
 Azure Policy is a service in Azure that allows you to enforce and govern compliance with organizational standards and best practices. It helps you ensure that your Azure resources are deployed and configured correctly.
-
-### Containers Instances and Limitations Managed by Azure Arc Outside of the Subscription
 
 ### PowerShell and Cmdlets
 PowerShell is a scripting language and command-line shell that is widely used for automation and management tasks in Azure. Azure provides a set of cmdlets (pronounced "command-lets") that allow you to interact with Azure resources using PowerShell.
@@ -118,11 +116,11 @@ Contains trust documents covering security implementation and design documentati
 - Data protection white papers, FAQs, penetration tests, and risk assessment tools
 - Azure stack security and compliance solutions and support
 
-## Windows Hello for Business
+### Windows Hello for Business
 
 **Windows Hello for Business** is a security feature in Windows 10 and Windows 11 that replaces traditional passwords with strong two-factor authentication on devices. It leverages biometrics (such as facial recognition or fingerprint scanning) or a PIN to authenticate users, providing a more secure and user-friendly authentication method.
 
-### Key Features
+#### Key Features
 
 1. **Passwordless Authentication**
    - **Biometrics**: Uses facial recognition or fingerprint scanning to authenticate users.
@@ -148,7 +146,7 @@ Contains trust documents covering security implementation and design documentati
    - **Fast Login**: Provides a quick and seamless login experience.
    - **Single Sign-On (SSO)**: Allows users to access multiple applications and services without needing to re-enter credentials.
 
-### Benefits
+#### Benefits
 
 1. **Improved Security**
    - Reduces the risk of phishing attacks and password theft.
@@ -166,6 +164,8 @@ Contains trust documents covering security implementation and design documentati
 
 By leveraging Windows Hello for Business, organizations can enhance their security posture while providing a more convenient and efficient authentication experience for their users.
 
+## Azure Services
+
 ### Azure DNS
 A portfolio of products that extends on-premises environments to the cloud and can include many Azure services and capabilities, such as data centers, edge locations, and remote offices.
 
@@ -173,41 +173,37 @@ A portfolio of products that extends on-premises environments to the cloud and c
 Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources. It is a fully stateful firewall as a service with built-in high availability and unrestricted cloud scalability. Azure Firewall provides comprehensive security features to control and monitor your network traffic.
 
 #### Key Features
-Stateful Firewall
-
-Traffic Filtering: Allows you to create, enforce, and log application and network connectivity policies across subscriptions and virtual networks.
-Network Rules: Supports both inbound and outbound filtering rules based on IP addresses, ports, and protocols.
-Threat Intelligence
-
-Threat Intelligence-Based Filtering: Integrates with Microsoft Threat Intelligence to alert and deny traffic from/to known malicious IP addresses and domains.
+- **Stateful Firewall**
+- **Traffic Filtering**: Allows you to create, enforce, and log application and network connectivity policies across subscriptions and virtual networks.
+- **Network Rules**: Supports both inbound and outbound filtering rules based on IP addresses, ports, and protocols.
+- **Threat Intelligence-Based Filtering**: Integrates with Microsoft Threat Intelligence to alert and deny traffic from/to known malicious IP addresses and domains.
 
 ### Azure Kubernetes Services (AKS)
 A PaaS offering in Azure - Azure Kubernetes Service (AKS) is a managed container orchestration service provided by Microsoft Azure that simplifies the deployment, management, and operations of Kubernetes clusters. AKS is designed to handle the complexities of Kubernetes, allowing developers and IT administrators to focus on building and running applications rather than managing the underlying infrastructure.
 
 #### Key Features
-Managed Kubernetes
-
-Simplified Cluster Management: AKS handles the provisioning, upgrading, and scaling of Kubernetes clusters, reducing the operational overhead.
-Automatic Updates: Ensures that the Kubernetes control plane is always up-to-date with the latest security patches and features.
+- **Managed Kubernetes**
+- **Simplified Cluster Management**: AKS handles the provisioning, upgrading, and scaling of Kubernetes clusters, reducing the operational overhead.
+- **Automatic Updates**: Ensures that the Kubernetes control plane is always up-to-date with the latest security patches and features.
 
 ### VPN Gateway vs ExpressRoute or VNet Peering
 Differences in connectivity options.
 
-## Azure Blob Storage Use Cases
+### Azure Blob Storage Use Cases
 - Serving images or documents directly to a browser
 - Storing files for distributed access
 - Streaming video and audio
 - Writing to log files
 
-## Service Failure Notifications
+### Service Failure Notifications
 Can be viewed from Azure Monitor. Pertinent to virtual machines, resource health events can represent one of four health statuses:
 - Available
 - Unavailable
 - Degraded
 - Unknown
 
-## Azure Cost Management Solution
+### Azure Cost Management Solution
 Provides tools to monitor, allocate, and optimize cloud spending.
 
-## Data Transfer Costs
+### Data Transfer Costs
 Inbound data transfers (data going into Azure data centers) are free. Outbound data transfers are subject to charges.
