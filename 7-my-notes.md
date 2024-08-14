@@ -292,3 +292,29 @@ Azure Storage offers a comprehensive set of storage solutions to meet various ne
 - **Azure Disks** – Block-level storage volumes.
 - **Azure Table** – Structured NoSQL data in the cloud.
 - **Azure Files** – Shard access that utilizes Server Message Block (SMB) protocol.
+
+Azure Monitor and Log Analytics Tool
+# Azure Monitor
+
+Azure Monitor is a comprehensive service in Azure designed to provide performance and availability monitoring for applications and services across various environments, including Azure, other cloud platforms, and on-premises infrastructure. It collects data from multiple sources into a unified data platform, enabling detailed analysis for trends and anomalies.
+
+## Key Features
+
+- Data Collection: Gathers data from Azure resources, on-premises environments, and other cloud platforms.
+- Analysis: Analyzes collected data to identify trends and detect anomalies.
+- Alerts: Provides rich features to quickly identify and respond to critical situations affecting your applications.
+- Metrics: Automatically collects metric data for virtual machine hosts, including CPU and memory usage, with data sampled once per minute.
+- Visualization: Offers a Metrics tab for virtual machines to view and analyze CPU and memory metrics over adjustable time periods.
+
+# Log Analytics Tool
+
+Log Analytics is a powerful tool within the Azure portal that allows you to edit and run log queries on data collected by Azure Monitor logs. It provides an interactive environment to analyze the results of these queries.
+
+## Key Features
+
+- Querying: Enables the creation and execution of log queries to retrieve records matching specific criteria.
+- Trend Identification: Helps identify trends and analyze patterns within the collected data.
+- Insights: Provides various insights into your data, aiding in troubleshooting and performance optimization.
+- Interactive Analysis: Allows for interactive analysis of query results, making it easier to understand and act on the data.
+
+Together, Azure Monitor and the Log Analytics tool offer a robust solution for monitoring, analyzing, and optimizing the performance and availability of your applications and services.
