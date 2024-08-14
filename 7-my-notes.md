@@ -288,3 +288,7 @@ Features:
 
 ## Summary
 Azure Storage offers a comprehensive set of storage solutions to meet various needs, from unstructured data storage to high-performance disk storage for virtual machines. Each storage service is designed to provide scalability, security, and cost-effectiveness for different use cases.
+- **Azure Blob** – Object store for text and binary data.
+- **Azure Disks** – Block-level storage volumes.
+- **Azure Table** – Structured NoSQL data in the cloud.
+- **Azure Files** – Shard access that utilizes Server Message Block (SMB) protocol.
