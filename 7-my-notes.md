@@ -317,3 +317,15 @@ Log Analytics is a powerful tool within the Azure portal that allows you to edit
 - Interactive Analysis: Allows for interactive analysis of query results, making it easier to understand and act on the data.
 
 Together, Azure Monitor and the Log Analytics tool offer a robust solution for monitoring, analyzing, and optimizing the performance and availability of your applications and services.
+
+## Azure Key Vault
+
+In Azure Cloud, you can use Azure Key Vault to create and store TLS/SSL certificates. Azure Key Vault helps safeguard cryptographic keys and secrets used by cloud applications and services. It provides secure storage and management of sensitive information, including TLS/SSL certificates.
+
+### Key Features:
+Secure Storage: Store and manage sensitive information such as keys, secrets, and certificates.
+Certificate Management: Create, import, and manage TLS/SSL certificates.
+Access Control: Control access to keys and secrets using Azure Active Directory.
+Integration: Integrate with other Azure services for automated certificate renewal and deployment.
+
+For more information, visit the [Azure Key Vault documentation](https://docs.microsoft.com/en-us/azure/key-vault/)..
