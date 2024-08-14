@@ -328,4 +328,4 @@ Certificate Management: Create, import, and manage TLS/SSL certificates.
 Access Control: Control access to keys and secrets using Azure Active Directory.
 Integration: Integrate with other Azure services for automated certificate renewal and deployment.
 
-For more information, visit the [Azure Key Vault documentation](https://docs.microsoft.com/en-us/azure/key-vault/)..
+For more information, visit the [Azure Key Vault documentation](https://docs.microsoft.com/en-us/azure/key-vault/).
