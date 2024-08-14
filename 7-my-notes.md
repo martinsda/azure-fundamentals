@@ -232,11 +232,10 @@ Inbound data transfers (data going into Azure data centers) are free. Outbound d
 
 
 ## Azure Storage Services
-### Azure Storage Services
 
 Azure Storage offers a variety of services to meet different storage needs. Below are the primary storage services available on the Azure platform:
 
-#### Blob Storage
+### Blob Storage
 Purpose: Optimized for storing massive amounts of unstructured data, such as text or binary data.
 
 Use Cases: Storing files, backups, logs, and media files.
@@ -246,7 +245,7 @@ Features:
 - Access: Supports REST-based object storage.
 - Integration: Works with Azure Data Lake Storage for big data analytics.
 
-#### File Storage
+### File Storage
 Purpose: Provides fully managed file shares in the cloud that are accessible via the SMB protocol.
 
 Use Cases: Lift-and-shift applications, shared storage for applications, and replacing or supplementing on-premises file servers.
@@ -256,7 +255,7 @@ Features:
 - Access Control: Integration with Azure Active Directory (Azure AD) for access control.
 - Data Protection: Snapshot support for data protection.
 
-#### Queue Storage
+### Queue Storage
 Purpose: Designed for storing large numbers of messages that can be accessed from anywhere via authenticated calls.
 
 Use Cases: Decoupling application components, load leveling, and asynchronous processing.
@@ -266,7 +265,7 @@ Features:
 - Message Size: Messages can be up to 64 KB in size.
 - Integration: Works with Azure Functions for serverless processing.
 
-#### Table Storage
+### Table Storage
 Purpose: Provides a NoSQL key-value store for rapid development using semi-structured datasets.
 
 Use Cases: Storing structured, non-relational data, such as user data for web applications, device information, and metadata.
@@ -276,7 +275,7 @@ Features:
 - Scalability: Scalable to handle large amounts of data.
 - Cost-Effective: Suitable for large datasets.
 
-#### Disk Storage
+### Disk Storage
 Purpose: Provides persistent, high-performance disk storage for Azure Virtual Machines.
 
 Use Cases: Running enterprise applications, databases, and high-performance workloads.
@@ -286,7 +285,7 @@ Features:
 - Performance: SSD and HDD options for different performance needs.
 - Data Protection: Integration with Azure Backup and Azure Site Recovery for data protection and disaster recovery.
 
-### Summary
+#### Summary
 Azure Storage offers a comprehensive set of storage solutions to meet various needs, from unstructured data storage to high-performance disk storage for virtual machines. Each storage service is designed to provide scalability, security, and cost-effectiveness for different use cases.
 - **Azure Blob** – Object store for text and binary data.
 - **Azure Disks** – Block-level storage volumes.
