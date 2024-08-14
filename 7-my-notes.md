@@ -233,9 +233,9 @@ The data moving in and out of Azure data centers, as well as data moving between
 
 Remember these concepts regarding data transfer:
 - **Data transfer to Azure** is always free
-– **Data transfer between Availability Zones** is not free
-– **Data transfer within the same Availability Zone** is free
-– **Data transfer between Azure regions** and to other continents is not free
+- **Data transfer between Availability Zones** is not free
+- **Data transfer within the same Availability Zone** is free
+- **Data transfer between Azure regions** and to other continents is not free
 
 ## Azure Storage Services
 
