@@ -187,7 +187,29 @@ A PaaS offering in Azure - Azure Kubernetes Service (AKS) is a managed container
 - **Automatic Updates**: Ensures that the Kubernetes control plane is always up-to-date with the latest security patches and features.
 
 ### VPN Gateway vs ExpressRoute or VNet Peering
-Differences in connectivity options.
+#### VPN Gateway
+- **Connectivity**: Uses the public internet to create a secure, encrypted connection between your on-premises network and Azure.
+- **Use Case**: Suitable for scenarios where cost is a concern and the performance requirements are moderate.
+- **Performance**: Generally lower performance and higher latency compared to ExpressRoute.
+- **Security**: Provides encryption for data in transit.
+- **Cost**: Typically lower cost compared to ExpressRoute.
+
+#### ExpressRoute
+- **Connectivity** Provides a private connection between your on-premises network and Azure, bypassing the public internet.
+- **Use Case**: Ideal for scenarios requiring high performance, low latency, and higher security.
+- **Performance**: Offers higher bandwidth options and more consistent network performance.
+- **Security**: More secure as it does not traverse the public internet.
+- **Cost**: Higher cost due to dedicated private connection.
+#### VNet Peering
+- **Connectivity**: Enables direct, private IP connectivity between two Azure Virtual Networks (VNets) within the same region or across regions.
+- **Use Case**: Suitable for connecting VNets within Azure, either within the same region or across different regions.
+- **Performance**: High performance with low latency as it uses the Azure backbone network.
+- **Security**: Traffic between peered VNets is private and does not traverse the public internet.
+- **Cost**:Generally lower cost compared to VPN Gateway and ExpressRoute for VNet-to-VNet connectivity.
+#### Summary
+- **VPN Gateway**: Best for secure, cost-effective connections over the public internet with moderate performance needs.
+- **ExpressRoute**: Best for high-performance, low-latency, and secure private connections, suitable for enterprise-grade applications.
+- **VNet Peering**: Best for high-performance, low-latency connections between Azure VNets, ideal for intra-Azure network connectivity.
 
 ### Azure Blob Storage Use Cases
 - Serving images or documents directly to a browser
