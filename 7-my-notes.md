@@ -2,6 +2,20 @@
 
 These items are relevant to the AZ-900: Microsoft Azure Fundamentals certification, as they cover fundamental concepts and features of Microsoft Azure. Understanding these topics is important for anyone seeking to gain a foundational understanding of Azure and its capabilities.
 
+## Exam practice and materials
+### Youtube materials
+#### References
+   [John Savill's Technical Training](https://youtube.com/playlist?list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3&si=bAucyc7WUF_Lk1-K).   
+### Tuturials dojo 
+#### References
+   [AZ-900 Microsoft Azure Fundamentals Practice Exams](https://portal.tutorialsdojo.com/courses/az-900-microsoft-azure-fundamentals-practice-exams/).
+### Pearson Practice Test
+#### References
+   [AZ-900: Microsoft Azure Fundamentals (Pearson Practice Test)](https://learning.oreilly.com/certifications/9780137984688/).
+### Microsof Practice Test
+#### References
+   [Microsoft Azure AI Fundamentals (AI-900) certification](https://learn.microsoft.com/certifications/azure-ai-fundamentals/).   
+
 ## Key Concepts
 
 ### Azure Resource Groups
