@@ -6,6 +6,7 @@ These items are relevant to the AZ-900: Microsoft Azure Fundamentals certificati
 ### Youtube materials
 #### References
    [John Savill's Technical Training](https://youtube.com/playlist?list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3&si=bAucyc7WUF_Lk1-K).   
+   [Learning materials and free quizzes by Adam Marczak](https://azure4everyone.com/).
 ### Tuturials dojo 
 #### References
    [AZ-900 Microsoft Azure Fundamentals Practice Exams](https://portal.tutorialsdojo.com/courses/az-900-microsoft-azure-fundamentals-practice-exams/).
